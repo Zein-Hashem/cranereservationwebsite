@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin:0 auto;
+}
+.category{
+    border: 1px solid black;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    
+}
+.category ul{
+    list-style-type: none;
+
+
+}
+.category ul li{
+    display: inline;
+    padding: 1%;
+
+
+}
+.category ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+   
+}
+.category ul li a:hover{
+    color:black;
+    background-color: white;
+
+}
+.main{
+    
+    
+    background-color: rgb(209, 216, 186);
+    padding: 3% 0;;
+    
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear:both
+}
+.tbl-full{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-primary{
+    background-color: white;
+    padding: 1%;
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: blue;
+    color: white;
+}
+.btn-secondary{
+    background-color: white;
+    padding: 1%;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: black;
+    color: white;
+}
+.btn-delete{
+    background-color:red;
+    padding: 1%;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-delete:hover{
+    background-color:white;
+    color: red;
+}
+.tbl-30{
+    width: 30%;
+}
+.ok{
+    width: 20%;
+    border: 1px solid black;
+    margin: 10% auto;
+    padding: 2%;
+
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.succes{
+    color: rgb(42, 147, 42);
+   size: 50%;
+    
+    font-size: large;
+}
+.error{
+  
+    font-size: large;
+    color: rgb(227, 2, 2);
+}
